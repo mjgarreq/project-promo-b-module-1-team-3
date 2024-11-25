@@ -3,8 +3,65 @@
     --primary-color: #8447e9;
     --secundary-color: #ffffff;
     --terciary-color: #0f0f0f; 
+    font-size: 62.5%;
 }
 
 .AdaDev{
     font-family: var(--font-family);
+}
+.section1 {
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    font-family: var(--font-family);
+}
+.section1 img {
+    width: 100%;
+}
+.title-section1 {
+    font-family: var(--font-family);
+    width: 112px;
+    height: 20px;
+    font-size: 1.6rem;
+    color: #f5f5f5;
+    font-weight: 600;
+    margin: 0 326px 90px 85px;
+    letter-spacing: 1.2px;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 48px 88px;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h3 {
+    color: #bdb0ec;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.content p {
+    color: #bdb0ec;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.link-section1 {
+    margin: 20px 32px;
+    border: solid 1px #f5f5f5;
+    justify-content: center;
+}
+
+.link-section1 a {
+    font-family: var(--font-family);
+    color: #f5f5f5;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
