@@ -2,13 +2,47 @@
     --font-family: Montserrat;
     --primary-color: #8447e9;
     --secundary-color: #ffffff;
-    --terciary-color: #0f0f0f; 
+    --terciary-color: #0f0f0f;
+    font-size: 62.5%; 
+}
+
+/*HEADER-start*/
+
+.header{
+    background-color: rgb(246, 246, 236);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
+}
+
+.menu{
+    display: none;
+}
+
+.contactbutton{
+    display: none;
 
 }
 
 .AdaDev{
     font-family: var(--font-family);
+    font-weight: 600;
 }
+
+/*HEADER*-finish/
+
+/*FOOTER-start*/
+
+.footer{
+    background-color: var(--terciary-color);
+    color: var(--primary-color);
+    font-family: "Roboto";
+    padding-left: 25px;
+
+}
+
+/*FOOTER-finish*/
 
 .frame-17 {
     border: 1px solid black;
