@@ -1,0 +1,10 @@
+:root{
+    --font-family: Montserrat;
+    --primary-color: #8447e9;
+    --secundary-color: #ffffff;
+    --terciary-color: #0f0f0f; 
+}
+
+.AdaDev{
+    font-family: var(--font-family);
+}
