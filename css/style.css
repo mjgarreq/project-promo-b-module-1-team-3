@@ -3,21 +3,43 @@
     --primary-color: #8447e9;
     --secundary-color: #ffffff;
     --terciary-color: #0f0f0f; 
-    font-size: 62.5%;
+    font-size: 62.5%; 
+}
+
+/*HEADER-start*/
+
+.header{
+    background-color: rgb(246, 246, 236);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
+}
+
+.menu{
+    display: none;
+}
+
+.contactbutton{
+    display: none;
 }
 
 .AdaDev{
     font-family: var(--font-family);
+    font-weight: 600;
 }
-.section1 {
+
+/*HEADER*-finish*/
+
+.section2 {
     background-color: var(--primary-color);
     color: var(--secundary-color);
     font-family: var(--font-family);
 }
-.section1 img {
+.section2 img {
     width: 100%;
 }
-.title-section1 {
+.title-section2 {
     font-family: var(--font-family);
     width: 112px;
     height: 20px;
@@ -28,7 +50,7 @@
     letter-spacing: 1.2px;
 }
 
-.article1 {
+.article2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,15 +75,29 @@
     font-size: 1.6rem;
 }
 
-.link-section1 {
+.link-section2 {
     margin: 20px 32px;
     border: solid 1px #f5f5f5;
     justify-content: center;
 }
 
-.link-section1 a {
+.link-section2 a {
     font-family: var(--font-family);
     color: #f5f5f5;
     font-size: 1.6rem;
     font-weight: 500;
 }
+    
+
+
+/*FOOTER-start*/
+
+.footer{
+    background-color: var(--terciary-color);
+    color: var(--primary-color);
+    font-family: "Roboto";
+    padding-left: 25px;
+
+}
+
+/*FOOTER-finish*/
