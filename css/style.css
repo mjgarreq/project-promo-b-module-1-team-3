@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 30px 15px 30px;
+    height: 10vh;
 }
 
 .menu{
@@ -28,6 +29,7 @@
 .AdaDev{
     font-family: var(--font-family);
     font-weight: 600;
+    font-size: 3rem;
 }
 
 /*HEADER*-finish*/
@@ -226,14 +228,23 @@
 
 .footer{
     background-color: var(--terciary-color);
-    color: var(--primary-color);
-    font-family: "Roboto";
     padding-left: 25px;
+    height: 20vh;
 
 }
 
+.AdaDevfooter{
+    color: var(--primary-color);
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+
+
 /*FOOTER-finish*/
 
+    
 @media (min-width: 768px) {
    
     .container {
@@ -252,5 +263,9 @@
     }
     .title-section2 {
         
+    }
+    .footer{
+        background-image: url(../images/4.svg);
+        background-color: transparent;
     }
 }
