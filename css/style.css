@@ -42,20 +42,31 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    padding: 50px;
+    padding: 0px;
     background-color: rgb(135, 190, 190);
 }
+
+.title-servicios{
+    display: none;
+}
+
 .section1 img{
     background-color: burlywood;
 }
+
 .button-servicios{
     font-family: var(--font-family);
-    font-size: 1.6rem;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem;
     letter-spacing: -0.8px;
     text-decoration: none;
     color: #f5f5f5;
     background-color: #8447e9;
     border-radius: 5px;
+    width: 30.0rem;
+    height: 5.3rem;
 }
 .title-article{
     font-size: 2.5rem;
@@ -65,14 +76,14 @@
     background-color: aquamarine;
 }
 .leer-mas{
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: #0f0f0f;
     align-items: center;
     background-color: #bdb0ec;
 
 }
-
+/*SECTION1-finish*/
 /*SECTION2-start*/
 
 .section2 {
