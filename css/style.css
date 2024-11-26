@@ -2,7 +2,7 @@
     --font-family: Montserrat;
     --primary-color: #8447e9;
     --secundary-color: #ffffff;
-    --terciary-color: #0f0f0f;
+    --terciary-color: #0f0f0f; 
     font-size: 62.5%; 
 }
 
@@ -22,8 +22,111 @@
 
 .contactbutton{
     display: none;
+
 }
 
 .AdaDev{
     font-family: var(--font-family);
+    font-weight: 600;
 }
+
+/*HEADER*-finish*/
+
+/*SECTION2-start*/
+
+.section2 {
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    font-family: var(--font-family);
+}
+.section2 img {
+    width: 100%;
+}
+.title-section2 {
+    font-family: var(--font-family);
+    width: 112px;
+    height: 20px;
+    font-size: 1.6rem;
+    color: #f5f5f5;
+    font-weight: 600;
+    margin: 0 326px 90px 85px;
+    letter-spacing: 1.2px;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 48px 88px;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h3 {
+    color: #bdb0ec;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.content p {
+    color: #bdb0ec;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.link-section2 {
+    margin: 20px 32px;
+    border: solid 1px #f5f5f5;
+    justify-content: center;
+}
+
+.link-section2 a {
+    font-family: var(--font-family);
+    color: #f5f5f5;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+    
+/*SECTION2-finish*/
+
+/*SECTION4-start*/
+
+.frame-17 {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--secundary-color);
+    padding: 101px 28.5px 169px;
+}
+
+.frame-17-title {
+    font-family: var(--font-family);
+    font-size: 4.2rem ;
+    font-weight: 500;
+    letter-spacing: -3.41px;
+}
+.frame-17 button {
+    display: none;
+}
+
+/*SECTION4-finish*/
+
+/*FOOTER-start*/
+
+.footer{
+    background-color: var(--terciary-color);
+    color: var(--primary-color);
+    font-family: "Roboto";
+    padding-left: 25px;
+
+}
+
+/*FOOTER-finish*/
