@@ -189,16 +189,17 @@
 /*SECTION4-start*/
 
 .frame-17 {
+    background-color: rgba(0, 0, 0, 0.7);
     background-image: url(../images/matt-hardy-6ArTTluciuA-unsplash\ \(1\).jpg);
     background-size: contain;
-    max-width: 695px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     color: var(--secundary-color);
-    padding: 101px 28.5px 169px;
-    gap: 3.8rem;
+    padding: 85px 28.5px 50px;
+    gap: 3rem;
 }
 
 
