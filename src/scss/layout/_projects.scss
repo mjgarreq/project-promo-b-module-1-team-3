@@ -1,7 +1,7 @@
 .section2 {
-    background-color: var(--primary-color);
-    color: var(--secundary-color);
-    font-family: var(--font-family);
+    background-color: $color-main;
+    color: $color-secondary;
+    font-family: $font-main;
 }
 
 .p-section2 {
@@ -20,7 +20,7 @@
     width: 100%;
 }
 .title-section2 {
-    font-family: var(--font-family);
+    font-family: $font-main;
     font-size: 1.6rem;
     color: #f5f5f5;
     font-weight: 600;
@@ -62,12 +62,12 @@
 .button-section2 {
     border: solid 1px #f5f5f5;
     padding: 20px 32px;
-    background-color: var(--primary-color);
+    background-color: $color-main;
     margin-bottom: 38px;
 }
 
 .link-section2 a {
-    font-family: var(--font-family);
+    font-family: $font-main;
     color: #f5f5f5;
     text-decoration: none;
     font-size: 1.6rem;

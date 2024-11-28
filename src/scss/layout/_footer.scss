@@ -1,12 +1,12 @@
 .footer{
-  background-color: var(--terciary-color);
+  background-color: $color-terciary;
   padding-left: 25px;
   height: 20vh;
 
 }
 
 .AdaDevfooter{
-  color: var(--primary-color);
+  color: $color-main;
   font-family: "Roboto";
   font-weight: 600;
   font-size: 5rem;

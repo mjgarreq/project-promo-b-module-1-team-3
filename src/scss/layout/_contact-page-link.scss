@@ -7,25 +7,25 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: var(--secundary-color);
+    color: $color-secondary;
     padding: 85px 28.5px 50px;
     gap: 3rem;
 }
 
 
 .frame-17-title {
-    font-family: var(--font-family);
+    font-family: $font-main;
     font-size: 3.4rem ;
     font-weight: 500;
     letter-spacing: -3.41px;
     flex-grow: 0;
 }
 .frame-17 button {
-    background-color: var(--primary-color);
-    font-family: var(--font-family);
+    background-color: $color-main;
+    font-family: $font-main;
     padding: 1.5rem;
 }
 .frame-17 a {
     text-decoration: none;
-    color: var(--secundary-color);
+    color: $color-secondary;
 }

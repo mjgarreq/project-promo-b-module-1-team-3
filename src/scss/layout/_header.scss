@@ -1,6 +1,6 @@
 .header{
   background-color: rgb(246, 246, 236);
-  color: var(--primary-color);
+  color: $color-main;
   display: flex;
   justify-content: space-between;
   padding: 15px 30px 15px 30px;
@@ -17,7 +17,7 @@
 }
 
 .AdaDev{
-  font-family: var(--font-family);
+  font-family: $font-main;
   font-weight: 600;
   font-size: 3rem;
 }
