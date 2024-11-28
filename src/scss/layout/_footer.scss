@@ -1,8 +1,13 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer{
+  background-color: var(--terciary-color);
+  padding-left: 25px;
+  height: 20vh;
+
+}
+
+.AdaDevfooter{
+  color: var(--primary-color);
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 5rem;
 }

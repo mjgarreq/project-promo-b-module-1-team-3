@@ -1,0 +1,31 @@
+.frame-17 {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(../images/matt-hardy-6ArTTluciuA-unsplash\ \(1\).jpg);
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--secundary-color);
+    padding: 85px 28.5px 50px;
+    gap: 3rem;
+}
+
+
+.frame-17-title {
+    font-family: var(--font-family);
+    font-size: 3.4rem ;
+    font-weight: 500;
+    letter-spacing: -3.41px;
+    flex-grow: 0;
+}
+.frame-17 button {
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    padding: 1.5rem;
+}
+.frame-17 a {
+    text-decoration: none;
+    color: var(--secundary-color);
+}

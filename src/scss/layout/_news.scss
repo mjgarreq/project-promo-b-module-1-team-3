@@ -1,0 +1,21 @@
+.section3 {
+    width: 100%;
+    background-color: var(--secundary-color);
+    padding: 10px, 20px, 10px, 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 p{
+    font-size: 2.4rem;
+}
+.section3 h2 {
+    margin: 0 104.6px 14.9px 0;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.article {
+    gap: 20;
+}

@@ -1,5 +1,23 @@
-.page__header {
+.header{
+  background-color: rgb(246, 246, 236);
+  color: var(--primary-color);
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+  height: 10vh;
+}
+
+.menu{
+  display: none;
+}
+
+.contactbutton{
+  display: none;
+
+}
+
+.AdaDev{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 3rem;
 }
