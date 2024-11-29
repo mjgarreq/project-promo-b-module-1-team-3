@@ -2,6 +2,7 @@
     background-color: $color-main;
     color: $color-secondary;
     font-family: $font-main;
+    width: 100%;
 }
 
 .p-section2 {
@@ -10,9 +11,9 @@
 
 .container {
     display: flex;
-    /* height: 600px; */
-    align-items: center;
-    /* border: 1px solid black; */
+    height: 40vh;
+    align-items: flex-end;
+    // border: 1px solid black; 
 }
 
 
@@ -24,7 +25,7 @@
     font-size: 1.6rem;
     color: #f5f5f5;
     font-weight: 600;
-    margin: 0 326px 90px 85px;
+    margin: 0 326px 90px 200px;
     letter-spacing: 1.2px;
 }
 
@@ -59,7 +60,7 @@
     justify-content: center;
 }
 
-.button-section2 {
+.button-services {
     border: solid 1px #f5f5f5;
     padding: 20px 32px;
     background-color: $color-main;
