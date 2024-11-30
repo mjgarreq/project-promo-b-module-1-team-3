@@ -3,11 +3,19 @@
     margin: 10%;
 }
 
-.title-servicios{
+.title-section1{/*revisar no consigo poner en version tablet*/
     display: none;
+    @media (min-width:768px) {
+        font-family: $font-main;
+        color: $color-main;
+        text-decoration: wavy;
+        text-decoration-color: $color-main;
+    }
 }
 
-.button-services{
+
+
+.button-services{/*corregir y entender porque no se pone en el centro*/
    display: flex;
    align-items: center;
 }
@@ -48,8 +56,8 @@
     margin: 3.2rem;
     display: flex;
     align-items: start;
-    /*background-color: aquamarine;*/
 }
+
 .leer-mas{
     font-size: 1.6rem;
     text-decoration-style:wavy;
@@ -61,4 +69,17 @@
     align-items: start;
 
 
+}
+/* revisar no consigo poner en version tablet*/
+.p-section1{
+    display: none;
+    @media (min-width:768px){
+        font-family: $font-main;
+        font-size: 2.5rem;
+        letter-spacing: -2px;
+        color: var(--secundary-color);
+        justify-content: center;
+        padding-left: 100px;
+        padding-top: 24px;
+    }
 }
