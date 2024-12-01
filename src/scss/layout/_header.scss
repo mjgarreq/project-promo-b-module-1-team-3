@@ -4,25 +4,56 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (min-width:768px){
+    justify-content: center;
+    gap: 50px;
+  }
 
   &-AdaDev{
     font-family: $font-main;
     font-weight: 600;
     font-size: 2rem;
     padding: 5% 10% 5% 10%;
+    @media (min-width:768px){
+      width: 25%;
+    }
+
   }
 
   &-button{
     display: none;
+    @media (min-width:768px){
+      width: 25%;
+      display: flex;
+    }
+    /*&-contact{
+      @media (min-width:768px){
+        width: 100%;
+      }
+    }*/
   
   }
 }
 
 .nav{
-  //width: 20%;
+  @media (min-width:768px){
+    width: 50%;
+  }
 
   &-menu{
     display: none;
+    @media (min-width:768px){
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+
+  & i{
+    @media (min-width:768px){
+      display: none;
+    }
   }
 
 }
