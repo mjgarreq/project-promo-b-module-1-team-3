@@ -5,7 +5,8 @@
   justify-content: space-between;
   align-items: center;
   @media (min-width:768px){
-    background-image: url(/images/4.svg) center no-repeat;
+    background-image: url(../images/4.svg) center no-repeat;
+    background-color: transparent;
     padding: 8% 13% 8% 13%;
     
   }
@@ -19,14 +20,27 @@
 
 }
 
-.nav{
+.footer .nav{
   display: none;
   @media (min-width:768px){
     display: block;
-    width: 30%;
+    width: 40%;
   }
 
-  &-menu a{
+  & i{
+    display: none;
+  }
+
+  &-menu{
+    @media (min-width:768px){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+  &-menu-link{
     @media (min-width:768px){
       color: #D0D0D0;
       text-decoration: none;
