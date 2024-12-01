@@ -1,0 +1,60 @@
+/* Contenedor principal */
+.cards-container {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espacio entre las tarjetas */
+    align-items: flex-start; /* Alinea las tarjetas por la parte superior */
+    gap: 20px; /* Espacio entre las columnas */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+}
+
+/* Estilo de las tarjetas */
+.article1 {
+    flex: 1; /* Todas las tarjetas ocupan el mismo ancho */
+    max-width: 300px; /* Define un ancho máximo */
+    text-align: center; /* Centra el contenido dentro de las tarjetas */
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle efecto */
+}
+
+/* Imagen de las tarjetas */
+.card-image img {
+    width: 80px; /* Tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción */
+    margin-bottom: 15px;
+}
+
+/* Títulos */
+.title-article {
+    font-size: 1.5rem;
+    color: #7b5ef2; /* Color púrpura */
+    margin-bottom: 10px;
+}
+
+/* Texto de las tarjetas */
+.p-section1 {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Enlace "Leer más" */
+.leer-mas {
+    text-decoration: none;
+    font-weight: bold;
+    color: #7b5ef2;
+    position: relative;
+}
+
+.leer-mas::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #7b5ef2;
+    margin: 5px auto 0;
+}
