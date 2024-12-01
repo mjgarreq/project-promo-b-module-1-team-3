@@ -1,13 +1,25 @@
 .footer{
   background-color: $color-terciary;
-  padding-left: 25px;
-  height: 20vh;
+  padding: 70px 30px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width:768px){
+    background-image: url(.../images/4.svg);
+    
+  }
+
+  &-AdaDev{
+    color: $color-main;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 3.5rem;
+    letter-spacing: 0cap;
+  }
 
 }
 
-.AdaDevfooter{
-  color: $color-main;
-  font-family: "Roboto";
-  font-weight: 600;
-  font-size: 5rem;
+.nav{
+  display: none;
 }
+
+

@@ -3,21 +3,29 @@
   color: $color-main;
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px 15px 30px;
-  height: 10vh;
+  align-items: center;
+
+  &-AdaDev{
+    font-family: $font-main;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 5% 10% 5% 10%;
+  }
+
+  &-button{
+    display: none;
+  
+  }
 }
 
-.menu{
-  display: none;
+.nav{
+  //width: 20%;
+
+  &-menu{
+    display: none;
+  }
+
 }
 
-.contactbutton{
-  display: none;
 
-}
 
-.AdaDev{
-  font-family: $font-main;
-  font-weight: 600;
-  font-size: 3rem;
-}
