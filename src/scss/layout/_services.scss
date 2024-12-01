@@ -3,21 +3,50 @@
     margin: 10%;
 }
 
-.title-section1{/*revisar no consigo poner en version tablet*/
+.mobile-only {
     display: none;
-    @media (min-width:768px) {
-        font-family: $font-main;
-        color: $color-main;
-        text-decoration: wavy;
-        text-decoration-color: $color-main;
+  
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      font-family: $font-main;
+      font-size: 6.2rem;
+      letter-spacing: -3.45px;
+      font-weight: 500;
+      padding-bottom: 10%;
+    }
+  }
+
+.mobile-title{
+    text-decoration: wavy;
+    text-decoration-color: #bdb0ec;
+    color: $color-main;
+    letter-spacing: -3.45px;
+
+}
+
+.mobile-text{
+    display: none;
+  
+    @media (min-width: 768px) {
+      display: inline-block;
+      text-align: left;
+      width: 50%;
+      margin-left: 20%;
+      padding-top: 39px;
+      line-height: 1.2;
+      font-family: $font-main;
+      font-size: 4.0rem;
+      letter-spacing: -1.6px;
+      font-weight: 500;
+      padding-bottom: 18%;
     }
 }
 
-
-
 .button-services{/*corregir y entender porque no se pone en el centro*/
    display: flex;
-   align-items: center;
+   justify-content: center;
+   height: fit-content;
 }
 
 .text-button{
@@ -29,12 +58,22 @@
 
 }
 
-.images-section1{
+.card-image{
+    background-color: aqua;
     font-family: $font-main;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2.5rem; 
+    padding: 2.5rem;
+
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between; /* Espaciado entre elementos */
+        gap: 20px; /* Espacio entre columnas */
+        max-width: 1200px;
+        margin: 0 auto;
+        
+      }
 }
 
 .texts-articles{
@@ -61,7 +100,7 @@
 .leer-mas{
     font-size: 1.6rem;
     text-decoration-style:wavy;
-    text-decoration-color: $color-main;
+    text-decoration-color: #bdb0ec;
     color: #0f0f0f;
     margin-left: 12%;
     margin-bottom: 30%;
@@ -73,7 +112,9 @@
 /* revisar no consigo poner en version tablet*/
 .p-section1{
     display: none;
+
     @media (min-width:768px){
+        justify-content: flex-start;
         font-family: $font-main;
         font-size: 2.5rem;
         letter-spacing: -1px;
