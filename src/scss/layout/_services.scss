@@ -58,23 +58,6 @@
 
 }
 
-/*font-family: $font-main;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.5rem;
-
-    @media (min-width: 768px) {
-        width: 25%;
-        display: flex;
-        justify-content: space-between; /* Espaciado entre elementos */
-         /* Espacio entre columnas 
-        max-width: 1200px;
-        margin: 0 auto;
-        
-    }
-*/
-
 .texts-articles{
     width: 40%;
     display: flex;
@@ -85,8 +68,8 @@
 
     @media (min-width: 768px) {
         flex-direction: row; /* Cambia a línea en pantallas grandes */
-        width: 49%; /* Ajusta el ancho para pantallas más grandes */
-        margin-left: 35%; /* Alineación de los elementos según sea necesario */
+        width: 50%; /* Ajusta el ancho para pantallas*/
+        margin-left: 35%; /* Alineación de los elementos */
     }
 }
 
@@ -105,39 +88,22 @@
 }
 
 .p-section1{
-    display: none;
-    
-    @media (min-width:768px) {
-        justify-content: flex-start;
-        margin-left: 100px;
-        padding-bottom: 60px;
-    }
+    font-size: 8.0rem;
+  
+    /*@media (min-width: 768px) {
+    }*/
 
 }
 
-.Leer-más{
-    font-size: 1.6rem;
+.leer-mas{
+    font-size: 1.5rem;
     text-decoration-style:wavy;
     text-decoration-color: #bdb0ec;
     color: #0f0f0f;
-    margin-left: 12%;
+    margin-left: 0%;
     margin-bottom: 30%;
     display: flex;
     align-items: start;
 
 
 }
-/* revisar no consigo poner en version tablet
-.p-section1{
-    display: none;
-
-    @media (min-width:768px){
-        justify-content: flex-start;
-        font-family: $font-main;
-        font-size: 2.5rem;
-        letter-spacing: -1px;
-        color: var(--secundary-color);
-        justify-content: center;
-        padding-top: 24px;
-    }
-}*/
