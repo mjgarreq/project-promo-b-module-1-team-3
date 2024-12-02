@@ -5,9 +5,12 @@
   justify-content: space-between;
   align-items: center;
   @media (min-width:768px){
-    background-image: url(../images/4.svg) center no-repeat;
+    background-image: url("../images/4.svg");
+    background-size: 100%;
+    //background-position: center;
+    //background-repeat: no-repeat;
     background-color: transparent;
-    padding: 8% 13% 8% 13%;
+    padding: 180px 80px 100px 80px;
     
   }
 
