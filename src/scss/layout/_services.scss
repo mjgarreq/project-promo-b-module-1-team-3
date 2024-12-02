@@ -3,21 +3,49 @@
     margin: 10%;
 }
 
-.title-section1{/*revisar no consigo poner en version tablet*/
+.mobile-only {
     display: none;
-    @media (min-width:768px) {
-        font-family: $font-main;
-        color: $color-main;
-        text-decoration: wavy;
-        text-decoration-color: $color-main;
+  
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      font-family: $font-main;
+      font-size: 6.2rem;
+      letter-spacing: -3.45px;
+      font-weight: 500;
+      padding-bottom: 10%;
+    }
+  }
+
+.mobile-title{
+    text-decoration: wavy;
+    text-decoration-color: #bdb0ec;
+    color: $color-main;
+    letter-spacing: -3.45px;
+
+}
+
+.mobile-text{
+    display: none;
+  
+    @media (min-width: 768px) {
+      display: inline-block;
+      text-align: left;
+      width: 50%;
+      margin-left: 20%;
+      line-height: 1.2;
+      font-family: $font-main;
+      font-size: 4.0rem;
+      letter-spacing: -1.6px;
+      font-weight: 500;
+      padding-bottom: 0%;
     }
 }
 
-
-
-.button-services{/*corregir y entender porque no se pone en el centro*/
+.button-services{
    display: flex;
-   align-items: center;
+   justify-content: center;
+   background-color: none;
 }
 
 .text-button{
@@ -29,20 +57,26 @@
 
 }
 
-.images-section1{
-    font-family: $font-main;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.5rem; 
+.images img{
+    @media (min-width: 768px) {
+        width: 10%;
+        margin-left: 21%;
+        
+        
+    }
 }
-
 .texts-articles{
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:center;
-    margin-left: 20%;
+    margin-left: 29%;
+
+    @media (min-width: 768px) {
+        width: 170%;
+        margin-left: 0%;
+    }
 }
 
 
@@ -50,36 +84,53 @@
 .title-article{
     font-family: $font-main;
     font-weight: 500;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+    text-align: left;
     color: $color-main;
     letter-spacing: -0.48px;
-    margin: 3.2rem;
+    margin: 5.1rem 0rem;
     display: flex;
     align-items: start;
+}
+
+.p-section{
+    width: 150%;
+    font-family: $font-main;
+    letter-spacing: -0.8;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #545353;
+    line-height: 1.3;
+    text-align:left;
+    
+  
+    @media (min-width: 768px) {
+        width: 50%;
+        font-family: $font-main;
+        letter-spacing: -0.8;
+        text-align: left;
+        font-size: 2.5rem;
+        color: #545353;
+        line-height: 1.3;
+        text-align:left;
+    }
+
 }
 
 .leer-mas{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-decoration-style:wavy;
-    text-decoration-color: $color-main;
+    text-decoration-color: #bdb0ec;
     color: #0f0f0f;
-    margin-left: 12%;
+    padding-top: 10%;
+    margin-left: 0%;
     margin-bottom: 30%;
     display: flex;
     align-items: start;
-
-
-}
-/* revisar no consigo poner en version tablet*/
-.p-section1{
-    display: none;
-    @media (min-width:768px){
-        font-family: $font-main;
+    @media (min-width: 768px) {
+        padding-top: 2%;
         font-size: 2.5rem;
-        letter-spacing: -2px;
-        color: var(--secundary-color);
-        justify-content: center;
-        padding-left: 100px;
-        padding-top: 24px;
+        margin-bottom: 0.6%;
     }
+
 }
