@@ -1,31 +1,26 @@
-@import 'core/variables';
-@import 'core/reset';
+
 /*@import 'components/code';
 @import 'components/links';
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'pages/index';*/
-@import 'layout/contact-page-link';
-@import 'components/button-contact';
+
+
+@import 'core/variables';
+@import 'core/reset';
+@import 'layout/header';
 @import 'layout/services';
 @import 'layout/projects';
+@import 'layout/contact-page-link';
+@import 'components/button-contact';
+@import 'layout/footer';
+
 
 
 :root{
     font-size: 62.5%; 
 }
-
-@import 'layout/header';
-@import 'layout/contact-page-link';
-@import 'components/button-contact';
-
-@import 'layout/projects';
-@import 'layout/footer';
-
-
-
-
     
 /*@media (min-width: 768px) {
    
