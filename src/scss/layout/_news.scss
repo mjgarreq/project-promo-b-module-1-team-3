@@ -29,6 +29,7 @@
 
 .news-wrapper {
     width: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 27px;
@@ -37,6 +38,11 @@
         margin-top: 30px;
         justify-content: space-between;
 }
+}
+.news-preview {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .news-preview {
