@@ -1,0 +1,11 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'layout/header';
+@import 'components/button-contact';
+@import 'layout/contact-page';
+@import 'layout/contact-page-link';
+@import 'layout/footer';
+
+:root{
+    font-size: 62.5%; 
+}

@@ -1,0 +1,81 @@
+.container {
+    @media (min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-left: 20px;
+    }
+}
+
+.contact {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+.contact-title {
+    font-family: $font-main;
+    color: $color-terciary;
+    font-size: 62px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    
+    & input {
+        height: 50px;
+        background-color: none;
+        border: none;
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    & textarea {
+        padding-top: 20px;
+        background-color: none;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+
+    &_button {
+        margin-top: 70px;
+        background-color: $color-main;
+        border: none;
+        font-family: $font-main;
+        font-size: 16px;
+        font-weight: 500;
+        color: $color-secondary;
+        width: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+::placeholder {
+    font-family: $font-main;
+    font-size: 24px;
+    color: #5a5a5a;
+}
+
+.maps {
+    padding-bottom: 40px;
+    @media (min-width: 768px) {
+        margin-right: 40px;
+    }
+}
+.maps img {
+    width: 100%;
+    @media (min-width: 768px) {
+       height: 90%;
+       position: relative;
+       object-fit: cover;
+       transform: translateY(60px);
+       margin-left: 20px;
+    }
+}
