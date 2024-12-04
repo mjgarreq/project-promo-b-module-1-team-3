@@ -35,7 +35,7 @@
     @media (min-width: 768px) {
       display: inline-block;
       text-align: left;
-      width: 50%;
+      width: 70%;
       margin-left: 25%;
       margin-top: 60px;
       line-height: 1.2;
@@ -79,14 +79,17 @@
 .texts-articles{
     display: flex;
     flex-direction: column;
-    width: 100px;
-    margin-left: 22%;
+    align-items: center;
+    width: 65%;
+    margin-left: 15%;
     @media (min-width: 768px) {
         /*width: 200%;
         margin-left: 0%;*/
         flex-direction: row;
-        width: 300px;
+        justify-content: flex-start;
         padding: 25px;
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
