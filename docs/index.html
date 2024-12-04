@@ -1,69 +1,182 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaDev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
-
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
-</header>
-
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
-
-    </li>
-  </ul>
-</main>
-
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
-</footer>
-
+  <link rel="stylesheet" href="./assets/index-38679943.css">
+</head>
+<body>
+   <header class="header">
+    <h2 class="header-AdaDev">AdaDev</h2>
+    <nav class="nav">
+    <i class="fa-solid fa-bars"></i>
+    <ul class="nav-menu">
+        <li><a href="../index.html" class="nav-menu-link">Home</a></li>
+        <li><a href="#" class="nav-menu-link">Nosotros</a></li>
+        <li><a href="#" class="nav-menu-link">Blog</a></li>
+        <li><a href="#" class="nav-menu-link">Servicios</a></li>
+    </ul>
+</nav>
+    <div class="header-button">
+        <button class="button-contact">
+    <a href="../contact.html">Contáctanos</a>
+    <i class="fa-solid fa-arrow-right"></i>
+</button>
     </div>
-    <script src="./js/main.js"></script>
-  </body>
+</header>
+   <main>
+    <section class="section1">
+
+    <div>
+        <h1 class="mobile-only">FemTech<span class="mobile-title">&nbsp;AdaDev</span></h1>
+        <div class="button-services1"><button class="button-services" id="button-services1">
+    <a href="#" class="text-button">Explora nuestros servicios</a>
+</button></div>
+    </div>
+    <div>
+        <p class="mobile-text">Bienvenido al espacio donde la creatividad y la tecnología se encuentran.</p>
+    </div>
+
+    <div class="texts-articles">
+        <article class="section1">
+    <div>
+        <div class="texts-articles">
+            <img src="./images/2.png" alt="Programación">
+        </div>
+        <div> 
+            <h3 class="title-article">Programación</h3>
+            <p class="p-section">En AdaDev, somos apasionados por la programación. Desde soluciones web modernas hasta aplicaciones innovadoras, nuestro objetivo es crear herramientas que impulsen tu éxito.</p>
+            <a class="leer-mas" href="#">Leer más</a>
+        </div>
+    </div>
+</article>
+        <article class="section1">
+    <div>
+        <div class="texts-articles">
+            <img src="./images/3.png" alt="Marketing">
+        </div>
+        <div> 
+            <h3 class="title-article">Marketing</h3>
+            <p class="p-section">Creamos estrategias de marketing digital personalizadas para maximizar tu alcance, atraer clientes y garantizar resultados medibles.</p>
+            <a class="leer-mas" href="#">Leer más</a>
+        </div>
+    </div>
+</article>
+        <article class="section1">
+    <div>
+        <div class="texts-articles">
+            <img src="./images/1.png" alt="Diseño">
+        </div>
+        <div> 
+            <h3 class="title-article">Diseño</h3>
+            <p class="p-section">Transformamos ideas en diseños impactantes. Ya sea para tu sitio web, identidad visual o materiales promocionales.</p>
+            <a class="leer-mas" href="#">Leer más</a>
+        </div>
+    </div>
+</article>
+    </div>
+
+</section>
+    <section class="section2">
+    <div class="container">
+        <h2 class="title-section2">PROYECTOS</h2>
+        <p class="p-section2"> En esta sección podréis encontrar algunos de los proyecto de Branding más destacados que hemos desarrollado. Hemos ayudado a las diferentes marcas a cumplir todos sus objetivos tecnológicos.</p>
+    </div>
+    <div class="container-articles">
+        <article class="article2">
+    <img src="./images/10.png" alt="Objetos color negro">
+    <div class="content">
+        <h3>BLVCK</h3>
+        <p>Branding</p>
+    </div>
+</article>
+        
+        <article class="article2">
+    <img src="./images/5.png" alt="Cremas">
+    <div class="content">
+        <h3>CREAM</h3>
+        <p>Branding</p>
+    </div>
+</article>
+
+        <article class="article2">
+    <img src="./images/11.png" alt="Una chica y un chico con gafas de sol">
+    <div class="content">
+        <h3>FREDI</h3>
+        <p>Branding</p>
+    </div>
+</article>
+        
+        <article class="article2">
+    <img src="./images/9.png" alt="Tarjeta">
+    <div class="content">
+        <h3>APOLLO</h3>
+        <p>Branding</p>
+    </div>
+</article>
+    </div>
+
+    <div class="link-section2"><button class="button-services" id="button-services1">
+    <a href="#" class="text-button">Explora nuestros servicios</a>
+</button></div>
+</section>
+    <section class="section3">
+
+    <h2 class="news-title"> Noticias </h2>
+
+    <div class="news-container">
+        <article class="article">
+    <figure>
+        <img src="./images/8.png" alt="Elon looking ugly" class="news-image">
+    </figure>
+        <p class="news-p">Elon Musk sorprende con un nuevo proyecto que pretende revolucionar el mundo.</p>
+</article>
+        <article class="article">
+    <figure>
+        <img src="./images/6.png" alt="A girls with papers" class="news-image">
+    </figure>
+        <p class="news-p">La voz femenina que está transformando el mundo tech. ¡No te lo pierdas!</p>
+</article>
+        <article class="article">
+    <figure>
+        <img src="./images/7.png" alt="Rocket" class="news-image">
+    </figure>
+        <p class="news-p">Ella lidera el equipo detrás del despegue que está haciendo historia.</p>
+</article>
+    </div>
+
+    <a href="" class="news-button-link"> <button class="news-button">Explora noticias</button> </a>
+</section>
+        <div class="background-image">
+        <div class="contact-link-container">
+           <h2 class="contact-link-title">Listas para tu proyecto</h2>
+           <button class="button-contact">
+    <a href="../contact.html">Contáctanos</a>
+    <i class="fa-solid fa-arrow-right"></i>
+</button>
+        </div>
+        
+    </div>
+</section>
+</main>
+   <footer class="footer">
+    <h2 class="footer-AdaDev">AdaDev</h2>
+    <nav class="nav">
+    <i class="fa-solid fa-bars"></i>
+    <ul class="nav-menu">
+        <li><a href="../index.html" class="nav-menu-link">Home</a></li>
+        <li><a href="#" class="nav-menu-link">Nosotros</a></li>
+        <li><a href="#" class="nav-menu-link">Blog</a></li>
+        <li><a href="#" class="nav-menu-link">Servicios</a></li>
+    </ul>
+</nav>
+</footer>
+</body>
+
 </html>
